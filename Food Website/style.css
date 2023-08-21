@@ -1,0 +1,61 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(45deg, lightgreen, lightsalmon, lightgreen);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: Castellar, sans-serif;
+  font-size: 40px;
+}
+
+h2 {
+  background: linear-gradient(45deg, red, black, red);
+  color: white;
+  padding: 15px;
+  font-style: italic;
+  border-radius: 50%;
+  width: 400px;
+  margin: auto;
+  box-shadow: 0 0 20px whitesmoke;
+}
+
+table {
+  width: 100%;
+}
+table td {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  color: deeppink;
+}
+
+img {
+  border-radius: 10px;
+  box-shadow: 0 0 5px black;
+  transition: 0.2s ease-in-out;
+}
+
+img:hover {
+  box-shadow: 10px 10px 15px black;
+  transform: scale(1.04);
+  transition: 0.2s ease-in-out;
+}
+#img2 {
+  box-shadow: none;
+}
+
+#footer {
+  background: linear-gradient(45deg, black, slategray);
+  color: white;
+  padding: 15px;
+}
+
+#footer a {
+  color: yellow;
+}
